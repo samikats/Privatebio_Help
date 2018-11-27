@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> -->
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </head>
@@ -180,7 +180,7 @@ Biometrics authentication (or realistic authentication) is used in computer scie
                     <p><strong>Step 1. Face Detection</strong></p>
                     
                     <ul>
-                            <li>Our Web app for Demo is already live on our site OR using browse https://www.privatebiometrics.com/demo/.</li>
+                            <li>Our Web app for Demo is already live on our site OR using browse <a href="https://www.privatebiometrics.com/demo/">privatebiometrics.com/demo</a>.</li>
 
                             <li>Once Demo page is loaded, it will show system camera object(Face) on the image preview circle and will also shows words to say on preview image.</li>
 
@@ -188,14 +188,14 @@ Biometrics authentication (or realistic authentication) is used in computer scie
 
                             <li>It is showing you each and every status of recognition which is being processed using Biometric.</li>
                     
-                            <p class= "images"><img src=""><img src=""></p>
+                            <p class= "images"><img src="images/face_detection1.png"><img src="images/face_detection3.gif"></p>
 
                             <li>Application also keep instructing user to place their image on right position with distance.</li>
 
                             <li>Percentage progress bar showing Image recognition process and as much as it scans and identifying users correctly, it will be raising up.</li>
 
                             <li>Once application scanned user’s image accurately, it will clears out all the other status and instructions from screen, will just show Images gathered successfully.</li>
-                            <p class= "images"><img src=""></p>
+                            <p class= "images"><img src="images/face_detection4.png"></p>
                             </ul>
                             
                     <p><strong>Step 2. Voice Identification</strong></p>
@@ -212,10 +212,16 @@ Biometrics authentication (or realistic authentication) is used in computer scie
                                 <li>Meanwhile, Word verification if it won’t match with displayed words then it will show error message on screen. “Words incorrect, try again!</li>
                                 <li>If it gets failed, will start face scanning process again with new random set of keywords.</li>
                             </ul>
-                            <p class= "images"><img src=""></p>
+                            <p class= "images"><img src="images/face_detection5.png"></p>
                             <li><strong>If Voice Authentication Matched : </strong></li>
-                            <ul><li>When User’s Face detection passed and Voice identification matched, here app will be verify two conditions, Whether this Detected Face is registered into system or not. It will show user’s details if user already registered and If not then will redirects to Sign up form.</li></ul>
+                          <ul><li>When User’s Face detection passed and Voice identification matched, here app will be verify two conditions, Whether this Detected Face is registered into system or not. It will show user’s details if user already registered and If not then will redirects to Sign up form.</li>
                         </ul>
+                        <li><p><strong>Enroll New User Details</strong></p></li>
+                        <ul>
+                        <li>Once Users Face and Voice Identification passed successfully and web service unable to find this data into Private Biometric Cloud, then it redirects to user signup form which asks to fill Name, Email and Phone number to enroll this user’s identity into Private BioMetric cloud.</li>
+                        <li>Now onwards whenever this user face scanned into application and voice identified successfully, it will returns this data in application.</li>
+                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
