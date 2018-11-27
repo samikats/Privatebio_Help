@@ -177,23 +177,45 @@ Biometrics authentication (or realistic authentication) is used in computer scie
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
+                    <p><strong>Step 1. Face Detection</strong></p>
+                    
                     <ul>
-                           <li>Click on the collapse navigation button on the top left of the website.</li>
+                            <li>Our Web app for Demo is already live on our site OR using browse https://www.privatebiometrics.com/demo/.</li>
 
-                            <li>Navigation menu will pop out then proceed to the Demo link.</li>
+                            <li>Once Demo page is loaded, it will show system camera object(Face) on the image preview circle and will also shows words to say on preview image.</li>
 
-                            <li>This will lead to the Demo page that has the Private Biometrics web application.</li>
+                            <li>Words to say won’t be displayed on image preview, until it doesn’t detects any human face.</li>
 
-                            <li>Position yourself properly in front of the the web application. The application will provide ways on how to position yourself.</li>
+                            <li>It is showing you each and every status of recognition which is being processed using Biometric.</li>
+                    
+                            <p class= "images"><img src=""><img src=""></p>
 
-                            <li>Position yourself until the the Red ring around face is Green.</li>
+                            <li>Application also keep instructing user to place their image on right position with distance.</li>
 
-                            <li>When your face is properly positioned in the application, the application with start capturing images. The image capturing progress will shown below your face by a green bar.</li>
+                            <li>Percentage progress bar showing Image recognition process and as much as it scans and identifying users correctly, it will be raising up.</li>
 
-                            <li>After capturing your images, you will be prompted to test for liveness by saying the words that appear across your face that was captured.</li>
-
-                           <li>When testing for liveness is done, you will be prompted to register your details like the name, age, street address with the application.</li>
-                    </ul>
+                            <li>Once application scanned user’s image accurately, it will clears out all the other status and instructions from screen, will just show Images gathered successfully.</li>
+                            <p class= "images"><img src=""></p>
+                            </ul>
+                            
+                    <p><strong>Step 2. Voice Identification</strong></p>
+                    <ul>
+                        <li>Words to say will be published on screen once Image has been gathered correctly and Percentage progress bar reached to 99%.</li>
+                        <li>As per second algorithm, user must has to speak word displayed on screen after image detected successfully.</li>
+                        <li>Our Web service will be verifying spoken words with set of words displayed on screen.</li>
+                        </ul>
+                        <p><strong>Step 3. Results</strong></p>
+                        <ul>
+                            <li>Results of Voice authentication can be Identity Matched or Mismatched.</li>
+                            <li><strong>If Voice Authentication MisMatched :</strong></li>
+                            <ul>
+                                <li>Meanwhile, Word verification if it won’t match with displayed words then it will show error message on screen. “Words incorrect, try again!</li>
+                                <li>If it gets failed, will start face scanning process again with new random set of keywords.</li>
+                            </ul>
+                            <p class= "images"><img src=""></p>
+                            <li><strong>If Voice Authentication Matched : </strong></li>
+                            <ul><li>When User’s Face detection passed and Voice identification matched, here app will be verify two conditions, Whether this Detected Face is registered into system or not. It will show user’s details if user already registered and If not then will redirects to Sign up form.</li></ul>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -205,7 +227,12 @@ Biometrics authentication (or realistic authentication) is used in computer scie
             </div>
             <div id="collapseSeven" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <!--Each item in <strong>PrepBootstrap</strong> is maintained to its latest version. This ensures its smooth operation.-->
+                    <p><strong>User Identity Returned</strong></p>
+                        <ul>
+                            <li>Private Biometrics Web Services will process this Detected Face & Voice data into cloud and It retrieves details of authenticated user which entered during enrollment.</li>
+                            <li>Currently It returns Email, Name and Phone number of this valid authenticated user.</li>
+                        </ul>
+                         <p class= "images"><img src=""></p>
                 </div>
             </div>
         </div>
@@ -217,7 +244,7 @@ Biometrics authentication (or realistic authentication) is used in computer scie
             </div>
             <div id="collapseSeven" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <!--Each item in <strong>PrepBootstrap</strong> is maintained to its latest version. This ensures its smooth operation.-->
+                    <!--Image Capturing goes here.-->
                 </div>
             </div>
         </div>
@@ -229,7 +256,7 @@ Biometrics authentication (or realistic authentication) is used in computer scie
             </div>
             <div id="collapseSeven" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <!--Each item in <strong>PrepBootstrap</strong> is maintained to its latest version. This ensures its smooth operation.-->
+                    <!--Testing for liveness goes here.-->
                 </div>
             </div>
         </div>

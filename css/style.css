@@ -79,3 +79,18 @@
         color: #1594c7;
         font-family: "Open Sans"
     }
+    .images {
+        width: 100%;
+        border: 1px #3366cc dotted;
+        margin-top: 13px;
+        padding: 10px;
+        padding-left: 20%;
+    }
+    .images img {
+        border-radius: 10px;
+        width: 200px;
+        height: 400px;
+        background: #1594c7;
+        margin-left: 10%;
+        align-items: center;
+    }
